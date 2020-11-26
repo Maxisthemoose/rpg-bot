@@ -1,6 +1,6 @@
-import BaseClient from "../util/Base/Client";
+import BaseClient from "../Base/Client";
 import readdir from "readdir-plus";
-import Command from "../util/Base/Command";
+import Command from "../Base/Command";
 
 export default function init(dir: string, subDirs: string[], client: BaseClient) {
     for (const subDir of subDirs) {

@@ -1,6 +1,6 @@
 import readdir from "readdir-plus";
-import BaseClient from "../util/Base/Client";
-import BaseEvent from "../util/Base/Event";
+import BaseClient from "../Base/Client";
+import BaseEvent from "../Base/Event";
 
 export default function init(dir: string, client: BaseClient) {
     readdir(dir, async (err, files) => {

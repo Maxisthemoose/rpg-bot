@@ -2,8 +2,8 @@ import { Client, Collection } from "discord.js";
 import BaseClientData from "../Interfaces/Client";
 import "dotenv/config";
 import Command from "./Command";
-import initC from "../../registry/Commands";
-import initE from "../../registry/Events";
+import initC from "../registry/Commands";
+import initE from "../registry/Events";
 
 export default class BaseClient extends Client {
 
